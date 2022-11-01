@@ -18,6 +18,13 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.tutorials = require("./tutorial.model.js")(sequelize, Sequelize);
+db.appointment = require("./appointment.model.js")(sequelize, Sequelize);
+db.user = require("./user.model.js")(sequelize, Sequelize);
+
+db.user.hasMany(db.appointment, { as: "appointment" });
+db.appointment.belongsTo(db.user, {
+  foreignKey: "userId",
+  as: "user"
+});
 
 module.exports = db;

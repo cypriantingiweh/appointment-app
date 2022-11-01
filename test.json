@@ -1,0 +1,40 @@
+  {
+        "id": 1,
+        "appointment_code": "A127102022",
+        "comment_before": "I am having constant runing stomach",
+        "comment_after": null,
+        "status": "PENDING",
+        "appointment_date": "2022-10-27T16:12:18.275Z",
+        "appointment_time": "16:30:00",
+        "request_date": "2022-10-30",
+        "doctor": 1,
+        "createdAt": "2022-10-27T17:00:59.463Z",
+        "updatedAt": "2022-10-27T17:00:59.475Z",
+        "userId": 3
+    },
+
+        {
+        "id": 1,
+        "names": "Dr Ngr patient",
+        "email": "patient@gmail.com",
+        "password": "$2b$10$FEqFNft39hBcTDlrLLw3E.8AEZlGV0ddjygGdWw87KhwUlRzdkr6y",
+        "address": "South west Region, Buea, Molyko",
+        "number": "+237 681100941",
+        "phone": "+237 681100941",
+        "sex": "Female",
+        "age": 50,
+        "role": "DOCTOR",
+        "createdAt": "2022-10-27T15:43:25.008Z",
+        "updatedAt": "2022-10-27T15:43:25.008Z"
+    },
+    {
+        "names": "Tingiweh Mary Claret",
+        "email": "clarettingiweh@gmail.com",
+        "address": "Molyko",
+        "city":"SW, Buea",
+        "number": "+237 681870941",
+        "phone": "+237 681190941",
+        "sex": "Female",
+        "age": 9,
+        "role": "PATIENT",
+    }
